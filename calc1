@@ -1,0 +1,22 @@
+# calculator program
+
+print('< ')
+x = int(input("number-  "))
+
+print(f'{x} ?')
+operator = (input(" "))
+
+print(f'{x} {operator} ')
+
+y = int(input(" "))
+
+if operator == "+":
+    print(f"your number is {x+y} !")
+elif operator == "-":
+    print(f"your number is {x-y} !")
+elif operator == "*":
+    print(f"your number is {x*y} !")
+elif operator == "/":
+    print(f"your number is {x/y} !")
+
+#this is a pretty clunky way of doing it will update
