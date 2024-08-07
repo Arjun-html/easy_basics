@@ -1,0 +1,28 @@
+# calculator program
+
+print('< ')
+x = int(input("number-  "))
+
+print(f'{x} ?')
+operator = (input(" "))
+
+print(f'{x} {operator} ')
+
+y = int(input(" "))
+
+if operator == "+":
+    z = x+y
+elif operator == "-":
+    z = x-y
+elif operator == "*":
+    z = x*y
+elif operator == "/":
+    z = x/y
+elif operator == "^":
+    z = x**y
+else:
+    z = "undefined"
+    print("ERROR")
+
+print(f"your number is {z} !")
+
